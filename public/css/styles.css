@@ -201,6 +201,7 @@ button:disabled {
 
 .chat {
     display: flex;
+    height: 100%;
 }
 
 .chat__sidebar {
@@ -345,7 +346,8 @@ button:disabled {
 
 .compose {
     flex-shrink: 0;
-    margin-top: 16px;
+    /* margin-top: 16px; */
+    margin-bottom: 40px;
     padding: 24px;
 }
 
